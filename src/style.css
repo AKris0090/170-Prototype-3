@@ -29,6 +29,24 @@ body{
     background-color: #fefd00;
 }
 
+.background3 {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+    padding: auto auto;
+}
+
+.background3 img {
+    width: 20vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+}
+
 .qr_codes p {
     width: 75%;
     font-size: larger;
@@ -51,6 +69,7 @@ body{
 
 .qr_codes img{
     width: 35%;
+    padding: 1rem 0;
 }
 
 .flex-container {
@@ -121,6 +140,12 @@ body{
     .riddle_card {
         width: 90%;
     }
+    .background3 img {
+        width: 90vw;
+    }
+    .qr_codes img{
+        width: 60%;
+    }
 }
 
 .riddle_card h1 {
@@ -163,6 +188,14 @@ body{
     padding: 0.5rem;
     border-radius: 50%;
     background-color: white;
+}
+
+.alternate img {
+    width: 8rem;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0;
+    display: none;
 }
 
 .form {
