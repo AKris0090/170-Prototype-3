@@ -5,7 +5,7 @@ const passwordfield = document.getElementById('password');
 const loginForm = document.getElementById('loginForm');
 
 const correctUsername = 'cyrusXsilver._.vibes_03';
-const correctPassword = 'password123';
+const correctPassword = 'stoneflowerhelmet13';
 
 loginForm.addEventListener('submit', function (event) {
     event.preventDefault();
