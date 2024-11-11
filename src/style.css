@@ -19,6 +19,16 @@ body{
     z-index: -1;
 }
 
+.background2{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #fefd00;
+}
+
 .qr_codes p {
     width: 70%;
     font-size: larger;
