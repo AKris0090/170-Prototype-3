@@ -1,5 +1,3 @@
-// main.js is a login system that checks a username and a password to let the user in.
-
 const usernamefield = document.getElementById('username');
 const passwordfield = document.getElementById('password');
 const loginForm = document.getElementById('loginForm');
