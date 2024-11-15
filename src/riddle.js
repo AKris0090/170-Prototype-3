@@ -45,7 +45,7 @@ const title = document.getElementById('title');
 
 function startRandomInterval() {
     const interval = setInterval(() => {
-        title.innerHTML = title.innerHTML === 'MY FAVORITE POEMS' ? 'MY FAVORITE PASSWORDS' : 'MY FAVORITE POEMS';
+        title.innerHTML = title.innerHTML === 'MY FAVORITE POEMS' ? 'PASSWORD' : 'MY FAVORITE POEMS';
 
         clearInterval(interval);
 
