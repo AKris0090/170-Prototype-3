@@ -2,7 +2,7 @@ const title = document.querySelector('h1');
 
 function startRandomInterval() {
     const interval = setInterval(() => {
-        title.innerHTML = title.innerHTML === 'PHOTO GALLERY' ? 'ԀHO┴O פ∀˥˥Ǝɹ⅄' : 'PHOTO GALLERY';
+        title.innerHTML = title.innerHTML === 'PHOTO GALLERY' ? 'USERNAME' : 'PHOTO GALLERY';
 
         clearInterval(interval);
 

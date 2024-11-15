@@ -204,3 +204,12 @@ body{
     flex-direction: column;
     gap: 1rem;
 }
+
+.riddle {
+    border-color: red;
+}
+
+.correctAnswer {
+    color: green;
+    display: none;
+}
