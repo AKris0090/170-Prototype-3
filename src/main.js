@@ -13,10 +13,12 @@ loginForm.addEventListener('submit', function (event) {
     const password = passwordfield.value;
   
     if (username === correctUsername && password === correctPassword) {
-      // Redirect to another page if login is successful
       answerQR.style.display = 'block';
+    } else if (username != correctUsername && password === correctPassword) {
+      alert('Incorrect username');
+    } else if (username === correctUsername && password != correctPassword) {
+      alert('Incorrect password');
     } else {
-      // Show an alert if login fails
-      alert('Incorrect username or password');
+      alert('Incorrect username and password');
     }
   });
